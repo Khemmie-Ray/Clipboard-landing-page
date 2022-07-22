@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+}
+
+nav {
+    background-image: url(images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    justify-content: center;
+}
+ 
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.ios, .mac {
+    padding: .5em 1.5em;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 1px 20px 10px hsla(233, 100%, 69%, 0.087);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.heading-info, .intro {
+    margin-bottom: 6em;
+}
+
+.links {
+    margin-top: 3em;
+}
+
+.content {
+    gap: 5%;
+    margin-bottom: 8em;
+}
+
+.computer-img {
+    margin-left: -50px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.computer-info {
+    align-self: center;
+}
+
+.access, .access-img,
+.workflow {
+    margin-bottom: 5em;
+}
+
+.info-icon {
+    margin-bottom: 2em;
+    width: 10%;
+}
+
+.company-icon {
+    display: flex;
+    margin: 4em 0 7em;
+    justify-content: space-between;
+}
+
+.company-logo {
+    width: 16%;
+}
+
+.company-logo img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 6em;
+    background-color: hsla(202, 11%, 66%, 0.235);
+    padding: 2em 0 0; 
+}
+
+.footer-logo {
+    width: 30%;
+}
+
+footer li {
+    font-size: 1rem;
+    padding-bottom: .5em;
+}
+
+footer a {
+    color: hsl(210, 10%, 33%);
+}
+
+.social-icons {
+    margin-top: 2em;
+    display: flex;
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .container, .container-fluid {
+        width: 90%;
+    }
+
+    .ios, .mac {
+        display: block;
+    }
+
+    .ios {
+        margin-bottom: 1em;
+    }
+
+    .company-icon {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .company-logo {
+        width: 100%;
+    }
+
+    .company-logo img {
+        display: block;
+        width: 60%;
+        margin: 1.5em auto; 
+    }
+
+    .computer-info {
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    .computer-img {
+        margin-left: 0;
+    }
+
+    .info {
+        margin-bottom: 1.5em;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .social-icons {
+        float: none;
+        justify-content: center;
+    }
+
+    .social-icons img {
+        padding-right: .8em;
+    }
+
+    .footer-logo {
+        margin-bottom: 2em;
+        width: 20%;
+    }
+}
