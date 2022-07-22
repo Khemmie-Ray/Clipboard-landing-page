@@ -10,11 +10,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -32,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Khemmie-Ray/Clipboard-landing-page.git](https://github.com/Khemmie-Ray/Clipboard-landing-page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://khemmie-ray.github.io/Clipboard-landing-page/](https://khemmie-ray.github.io/Clipboard-landing-page/)
 
 ## My process
 
